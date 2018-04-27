@@ -17,6 +17,8 @@ unreleased
 
 `git master <https://github.com/meejah/txtorcon>`_ *will likely become v18.0.0*
 
+ * better error-reporting (include REASON and REMOTE_REASON if
+   available) when circuit-builds fail (thanks David Stainton)
  * re-work how `TorState.event_map` works, hopefully reducing
    reproducible-builds issues
  * :meth:`txtorcon.TorControlProtocol.add_event_listener` and
